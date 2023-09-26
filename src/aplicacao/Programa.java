@@ -50,7 +50,7 @@ public class Programa {
             soma +=pe.calculaImposto();
         }
 
-        System.out.println("TOTAL DE IMPOSTOS: $ " + String.format("%.2f", soma ));
+        System.out.println("TOTAL DE IMPOSTOS: R$ " + String.format("%.2f", soma ));
         sc.close();
     }
 }
